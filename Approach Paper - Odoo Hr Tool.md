@@ -120,7 +120,8 @@ This approach involves deploying Odoo as a standalone Podman container while mai
 
 ###  **4.1. Architecture Diagram** {#4.1.-architecture-diagram}
 
-![][image2]
+![diagram-export-2-14-2025-5_46_46-PM](https://github.com/user-attachments/assets/4478f32b-5c18-4bd1-b35b-97112b9919a6)
+
 
 ### **4.2. Description** {#4.2.-description}
 
