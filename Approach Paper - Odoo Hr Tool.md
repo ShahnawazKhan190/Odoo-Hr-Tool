@@ -64,7 +64,8 @@ In this method, both Odoo and its database are deployed using Podman Compose, wh
 
 ###    **3.1. Architecture Diagram** {#3.1.-architecture-diagram}
 
-![][image1]
+![diagram-export-2-18-2025-11_42_08-AM](https://github.com/user-attachments/assets/709e61fe-97f0-48bd-89ee-68c6fd4be029)
+
 
  
 
