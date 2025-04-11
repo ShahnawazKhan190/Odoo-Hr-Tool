@@ -36,7 +36,7 @@
 
 ##    **1\. Objective:** {#1.-objective:}
 
-The objective of this project is to deploy the Odoo HR Tool using Podman for containerization. The deployment will ensure high availability and reliability by implementing a master-slave SQL database setup. This approach aims to provide a scalable, resilient, and efficient solution for HR management using Odoo.
+The objective of this project is to deploy the Odoo HR Tool using Podman for containerization. The deployment will ensure high availability and reliability by implementing a master-slave PostgresSQL database setup. This approach aims to provide a scalable, resilient, and efficient solution for HR management using Odoo.
 
 ##    **2\. Proposed Solutions:** {#2.-proposed-solutions:}
 
@@ -50,7 +50,7 @@ handles containerization, offering a secure and rootless environment for better 
 
 ### 
 
-**Approach 2:** Deploying Odoo and Database with Podman     Compose.
+**Approach 2:** Deploying Odoo and Database with Podman Compose.
 
 In this method, both Odoo and its database are deployed using Podman Compose, which helps manage multiple services easily. The database is set up with a master-slave replication model to ensure data redundancy and high availability. This approach makes scaling and managing services more efficient.
 
@@ -71,7 +71,7 @@ In this method, both Odoo and its database are deployed using Podman Compose, wh
 
 ### **3.2.  Description** {#3.2.-description}
 
-This approach involves deploying Odoo as a standalone Podman container while maintaining a separate SQL database setup in a master-slave configuration. This ensures database redundancy and failover capability. The rootless nature of Podman enhances security and eliminates the need for privileged access.
+This approach involves deploying Odoo as a standalone Podman container while maintaining a separate PostgresSQL database setup in a master-slave configuration. This ensures database redundancy and failover capability. The rootless nature of Podman enhances security and eliminates the need for privileged access.
 
 **Pros:**
 
@@ -156,7 +156,7 @@ This approach uses Podman Compose to deploy Odoo alongside its database services
 
 * Operating System: Ubuntu 22.04 / RHEL 9
 
-* Pod-man Version: 4.x
+* Podman Version: 4.x
 
 * Podman Compose
 
