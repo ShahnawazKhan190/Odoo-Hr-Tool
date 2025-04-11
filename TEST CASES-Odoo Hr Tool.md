@@ -8,7 +8,7 @@
 
 **Goal**: I am working on deploying the Odoo Hr Tool using Podman for  containerization .The Odoo image will be pulled from Docker Hub and run as a container .To ensure high availability reliability, I am implementing a master-slave postgres database setup.
 
- ghjb
+
 
 
                                                                                                                                             
